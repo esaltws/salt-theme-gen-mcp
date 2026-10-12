@@ -26,6 +26,10 @@
     "node": ">=18.0.0"
   },
   "keywords": ["mcp", "design-tokens", "figma", "salt-theme-gen"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esaltws/salt-theme-gen-mcp.git"
+  },
   "license": "MIT",
   "author": "Hasan Sarwer <hasanmathju@gmail.com>"
 }
