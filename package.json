@@ -1,0 +1,31 @@
+{
+  "name": "salt-theme-gen-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for salt-theme-gen — AI-driven design token generation and Figma push",
+  "type": "module",
+  "bin": {
+    "salt-theme-gen-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "salt-theme-gen": ">=2.0.0-rc.3"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "salt-theme-gen": "next",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "design-tokens", "figma", "salt-theme-gen"],
+  "license": "MIT",
+  "author": "Hasan Sarwer <hasanmathju@gmail.com>"
+}
